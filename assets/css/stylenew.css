@@ -1,0 +1,14 @@
+.popup-label 
+{
+            padding: 1px;
+            margin: 0;
+}
+.popup-label img 
+{
+            border-radius: 4px;
+            padding: 0;
+            margin: 0;
+
+}
+li { cursor: pointer; cursor: hand;list-style-type: none; }
+ul {}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="8" assertions="8" failures="0" errors="0" time="0.203371">
+    <testsuite name="Home_test" file="C:\xampp\htdocs\cross\application\tests\controllers\home_test.php" tests="2" assertions="2" failures="0" errors="0" time="0.044255">
+      <testcase name="test_index" class="Home_test" file="C:\xampp\htdocs\cross\application\tests\controllers\home_test.php" line="12" assertions="1" time="0.042407"/>
+      <testcase name="test_APPPATH" class="Home_test" file="C:\xampp\htdocs\cross\application\tests\controllers\home_test.php" line="18" assertions="1" time="0.001848"/>
+    </testsuite>
+    <testsuite name="Virtual_test" file="C:\xampp\htdocs\cross\application\tests\controllers\virtual_test.php" tests="2" assertions="2" failures="0" errors="0" time="0.032431">
+      <testcase name="test_index" class="Virtual_test" file="C:\xampp\htdocs\cross\application\tests\controllers\virtual_test.php" line="12" assertions="1" time="0.031103"/>
+      <testcase name="test_APPPATH" class="Virtual_test" file="C:\xampp\htdocs\cross\application\tests\controllers\virtual_test.php" line="18" assertions="1" time="0.001328"/>
+    </testsuite>
+    <testsuite name="Events_model_test" file="C:\xampp\htdocs\cross\application\tests\models\Events_model_test.php" tests="1" assertions="1" failures="0" errors="0" time="0.012086">
+      <testcase name="test_getAllEventDetails" class="Events_model_test" file="C:\xampp\htdocs\cross\application\tests\models\Events_model_test.php" line="13" assertions="1" time="0.012086"/>
+    </testsuite>
+    <testsuite name="Map_Model_test" file="C:\xampp\htdocs\cross\application\tests\models\map_model_test.php" tests="1" assertions="1" failures="0" errors="0" time="0.013693">
+      <testcase name="test_getAllStands" class="Map_Model_test" file="C:\xampp\htdocs\cross\application\tests\models\map_model_test.php" line="12" assertions="1" time="0.013693"/>
+    </testsuite>
+    <testsuite name="Registration_Model_test" file="C:\xampp\htdocs\cross\application\tests\models\registration_model_test.php" tests="2" assertions="2" failures="0" errors="0" time="0.100906">
+      <testcase name="test_alreadyexists" class="Registration_Model_test" file="C:\xampp\htdocs\cross\application\tests\models\registration_model_test.php" line="11" assertions="1" time="0.014295"/>
+      <testcase name="test_insertcompany" class="Registration_Model_test" file="C:\xampp\htdocs\cross\application\tests\models\registration_model_test.php" line="19" assertions="1" time="0.086611"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
